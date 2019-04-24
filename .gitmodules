@@ -1,6 +1,8 @@
 [submodule "app"]
 	path = app
 	url = https://github.com/sergiowalls/SardAppren-App.git
+	branch = master
 [submodule "api"]
 	path = api
-	url = https://github.com/MarioAlbo/SardAppren-API
+	url = https://github.com/MarioAlbo/SardAppren-API.git
+	branch = master
