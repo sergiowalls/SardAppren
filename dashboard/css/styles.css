@@ -1,0 +1,56 @@
+.navbar-static-top {
+  margin-bottom:20px;
+  background-color: #3A3A3A;
+}
+.navbar-static-top > .container-fluid > .navbar-header > a{
+  color:white;
+}
+.navbar-static-top > .container-fluid > .collapse > .navbar-right > li > a{
+  color:white;
+}
+
+i {
+  font-size:16px;
+  color:seagreen;
+}
+a{
+  color:seagreen;
+}
+.nav > li > a {
+  color:seagreen;
+}
+  
+footer {
+  margin-top:20px;
+  padding-top:20px;
+  padding-bottom:20px;
+  background-color:#efefef;
+}
+
+/* count indicator near icons */
+.nav>li .count {
+  position: absolute;
+  bottom: 12px;
+  right: 6px;
+  font-size: 9px;
+  background: rgba(51,200,51,0.55);
+  color: rgba(255,255,255,0.9);
+  line-height: 1em;
+  padding: 2px 4px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.panel-default > .panel-heading {
+  color:#FFFFFF;
+  background-color: #3A3A3A;
+}
+body{
+  background-color: #fffff2;
+}
+.nav > h1 > a{
+  color:seagreen;
+}
