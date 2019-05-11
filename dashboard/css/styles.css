@@ -8,12 +8,35 @@
 .navbar-static-top > .container-fluid > .collapse > .navbar-right > li > a{
   color:white;
 }
-
+.alert{
+  background-color: #DCFFEC;
+  border-color: seagreen;
+  color:#215F3C;
+}
+.btn-primary{
+  background: seagreen;
+  border-color:darkgreen;
+}
+.btn-primary:hover{
+  background: mediumseagreen;
+  border-color:darkgreen;
+}
+.list-group-item.active{
+  border-color: seagreen;
+  background-color: seagreen;
+}
+.list-group-item.active:hover{
+    border-color: darkgreen;
+  background-color: mediumseagreen;
+}
 i {
   font-size:16px;
   color:seagreen;
 }
 a{
+  color:seagreen;
+}
+a:hover{
   color:seagreen;
 }
 .nav > li > a {
