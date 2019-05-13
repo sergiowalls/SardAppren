@@ -21,6 +21,17 @@
   background: mediumseagreen;
   border-color:darkgreen;
 }
+.btn-primary.active
+.btn-primary:active{
+  background: mediumseagreen !important;
+  border-color:darkgreen;
+  box-shadow: none;
+}
+.btn-primary.focus,
+.btn-primary:focus {
+  background: mediumseagreen !important;
+  border-color:darkgreen;
+}
 .list-group-item.active{
   border-color: seagreen;
   background-color: seagreen;
