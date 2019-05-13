@@ -116,42 +116,48 @@
                             </div>
                         </div>
                         <div class="panel-body">
-                            <form class="form form-vertical" action="68.183.211.200:8080" method="post">
+                            <form class="form form-vertical" action="http://sardappren.sergiowalls.me:8080/sardanas/" method="post" enctype="multipart/form-data">
                                 <div class="control-group">
                                     <label>Nom de la sardana</label>
                                     <div class="controls">
-                                        <input type="text" class="form-control" name="Título" placeholder="Enter Name">
+                                        <input type="text" class="form-control" name="title" placeholder="Enter Name">
                                     </div>
                                     <hr>
                                 </div>
                                  <div class="control-group">
                                     <label>Pujar l'arxiu d'audio</label>
                                     <div class="controls">
-                                        <input type="file" accept="audio/*" name="Archivo audio" required >
+                                        <input type="file" accept="audio/*" name="file" required >
                                     </div>
                                 </div>
                                 <div class="control-group">
-                                    <label>Moment on comença el primer curt</label>
+                                    <label>Moment on comença el primer curt (segons)</label>
                                     <div class="controls">
-                                        <input type="text" class="form-control" name="Tiempo hasta el primer compás"placeholder="per exemple '01:05'">
+                                        <input type="number" step="any" class="form-control" name="first_compass_position"placeholder="per exemple '7.3'">
                                     </div>
                                 </div>
                                 <div class="control-group">
                                     <label>Quant tiren els curts?</label>
                                     <div class="controls">
-                                        <input type="number" class="form-control" name="Número de curts" placeholder="per exemple '29'">
+                                        <input type="number" class="form-control" name="number_curts" placeholder="per exemple '29'">
                                     </div>
                                 </div>
                                 <div class="control-group">
                                     <label>Quant tiren els llargs?</label>
                                     <div class="controls">
-                                        <input type="number" class="form-control" name="Número de llargs"placeholder="per exemple '71'">
+                                        <input type="number" class="form-control" name="number_llargs"placeholder="per exemple '71'">
                                     </div>
                                 </div>
                                 <div class="control-group">
-                                    <label>Nombre de compassos per minut</label>
+                                    <label>compassos per minut dels curts</label>
                                     <div class="controls">
-                                        <input type="number" class="form-control" name="Compás" placeholder="per exemple '42'">
+                                        <input type="number" step="any" class="form-control" name="beats_per_minute_curts" placeholder="per exemple '42'">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label>compassos per minut dels llargs</label>
+                                    <div class="controls">
+                                        <input type="number" step="any" class="form-control" name="beats_per_minute_llargs" placeholder="per exemple '42'">
                                     </div>
                                 </div>
                                 <div class="control-group">
@@ -163,6 +169,10 @@
                                     </div>
                                 </div>
                             </form>
+                            <!--script para postear el form-->
+                            <script type='text/javascript'>
+
+                            </script>
                         </div>
                         <!--/panel content-->
                     </div>
