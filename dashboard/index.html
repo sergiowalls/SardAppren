@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<meta charset="utf-8">
-		<title>SardAppren</title>
-		<meta name="generator" content="Bootply" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <link rel="icon" type="image/png" href="./catalunya.ico">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-		<!--[if lt IE 9]>
-			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-		<link href="css/styles.css" rel="stylesheet">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>SardAppren</title>
+    <meta name="generator" content="Bootply"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" type="image/png" href="./catalunya.ico">
 
-	</head>
-	<body>
-<!-- header -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+
 <div id="top-nav" class="navbar navbar-inverse navbar-static-top">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -28,17 +27,10 @@
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li class="dropdown">
-                    <a class="dropdown-toggle" role="button" data-toggle="dropdown" href="#"><i class="glyphicon glyphicon-user"></i> Perfil <span class="caret"></span></a>
-                    <ul id="g-account-menu" class="dropdown-menu" role="menu">
-                        <li><a href="#">My Profile</a></li>
-                    </ul>
-                </li>
                 <li><a href="#"><i class="glyphicon glyphicon-lock"></i> Sortir</a></li>
             </ul>
         </div>
     </div>
-    <!-- /container -->
 </div>
 <!-- /Header -->
 
@@ -46,61 +38,19 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-sm-3">
-            <!-- Left column -->
-            <a  href="#"><strong><i class="glyphicon glyphicon-wrench"></i> Menú</strong></a>
-
-            <hr>
 
             <ul class="nav nav-stacked">
-                <li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#userMenu">Configuració <i class="glyphicon glyphicon-chevron-down"></i></a>
-                    <ul class="nav nav-stacked collapse in" id="userMenu">
-                        <li class="active"> <a href="#"><i class="glyphicon glyphicon-home"></i> Inici</a></li>
-                        <li><a href="#"><i class="glyphicon glyphicon-cog"></i> Opcions</a></li>
-                        <li><a href="#"><i class="glyphicon glyphicon-user"></i> Contacte</a></li>
-                        <li><a href="#"><i class="glyphicon glyphicon-exclamation-sign"></i> Sobre l'app</a></li>
-                        <li><a href="#"><i class="glyphicon glyphicon-off"></i> Sortir</a></li>
-                    </ul>
-                </li>
-                <li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#menu2"> Dades demogràfiques <i class="glyphicon glyphicon-chevron-right"></i></a>
-
-                    <ul class="nav nav-stacked collapse" id="menu2">
-                        <li><a href="#">Information &amp; Stats</a>
-                        </li>
-                        <li><a href="#">Views</a>
-                        </li>
-                        <li><a href="#">Requests</a>
-                        </li>
-                        <li><a href="#">Timetable</a>
-                        </li>
-                        <li><a href="#">Alerts</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="nav-header">
-                    <a href="#" data-toggle="collapse" data-target="#menu3"> Xarxes Socials <i class="glyphicon glyphicon-chevron-right"></i></a>
-                    <ul class="nav nav-stacked collapse" id="menu3">
-                        <li><a href=""><i class="glyphicon glyphicon-circle"></i> Facebook</a></li>
-                        <li><a href=""><i class="glyphicon glyphicon-circle"></i> Twitter</a></li>
-                    </ul>
-                </li>
+                <ul class="nav nav-stacked collapse in" id="userMenu">
+                    <li class="active"><a href="#"><i class="glyphicon glyphicon-home"></i> Inici</a></li>
+                    <li><a href="#"><i class="glyphicon glyphicon-cog"></i> Opcions</a></li>
+                    <li><a href="#"><i class="glyphicon glyphicon-user"></i> Contacte</a></li>
+                    <li><a href="#"><i class="glyphicon glyphicon-exclamation-sign"></i> Sobre l'app</a></li>
+                    <li><a href="#"><i class="glyphicon glyphicon-off"></i> Sortir</a></li>
+                </ul>
             </ul>
         </div>
         <!-- /col-3 -->
         <div class="col-sm-9">
-
-            <!-- column 2 -->
-            <ul class="list-inline pull-right">
-                <li><a href="#"><i class="glyphicon glyphicon-cog"></i></a></li>
-                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-comment"></i><span class="count">3</span></a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li><a href="#">1. Is there a way..</a></li>
-                        <li><a href="#">2. Hello, admin. I would..</a></li>
-                        <li><a href="#"><strong>All messages</strong></a></li>
-                    </ul>
-                </li>
-                <li><a href="#"><i class="glyphicon glyphicon-user"></i></a></li>
-                <li><a title="Add Widget" data-toggle="modal" href="#addWidgetModal"><span class="glyphicon glyphicon-plus-sign"></span> Afegir Widget</a></li>
-            </ul>
             <a href="#"><strong><i class="glyphicon glyphicon-dashboard"></i> SardAppren Dashboard </strong></a>
             <hr>
 
@@ -115,7 +65,8 @@
                             </div>
                         </div>
                         <div class="panel-body">
-                            <form class="form form-vertical" action="http://sardappren.sergiowalls.me:8080/sardanas/" method="post" enctype="multipart/form-data">
+                            <form class="form form-vertical" action="http://sardappren.sergiowalls.me:8080/sardanas/"
+                                  method="post" enctype="multipart/form-data">
                                 <div class="control-group">
                                     <label>Nom de la sardana</label>
                                     <div class="controls">
@@ -123,40 +74,45 @@
                                     </div>
                                     <hr>
                                 </div>
-                                 <div class="control-group">
+                                <div class="control-group">
                                     <label>Pujar l'arxiu d'audio</label>
                                     <div class="controls">
-                                        <input type="file" accept="audio/*" name="file" required >
+                                        <input type="file" accept="audio/*" name="file" required>
                                     </div>
                                 </div>
                                 <div class="control-group">
                                     <label>Moment on comença el primer curt (segons)</label>
                                     <div class="controls">
-                                        <input type="number" step="any" class="form-control" name="first_compass_position"placeholder="per exemple '7.3'">
+                                        <input type="number" step="any" class="form-control"
+                                               name="first_compass_position" placeholder="per exemple '7.3'">
                                     </div>
                                 </div>
                                 <div class="control-group">
                                     <label>Quant tiren els curts?</label>
                                     <div class="controls">
-                                        <input type="number" class="form-control" name="number_curts" placeholder="per exemple '29'">
+                                        <input type="number" class="form-control" name="number_curts"
+                                               placeholder="per exemple '29'">
                                     </div>
                                 </div>
                                 <div class="control-group">
                                     <label>Quant tiren els llargs?</label>
                                     <div class="controls">
-                                        <input type="number" class="form-control" name="number_llargs"placeholder="per exemple '71'">
+                                        <input type="number" class="form-control" name="number_llargs"
+                                               placeholder="per exemple '71'">
                                     </div>
                                 </div>
                                 <div class="control-group">
                                     <label>compassos per minut dels curts</label>
                                     <div class="controls">
-                                        <input type="number" step="any" class="form-control" name="beats_per_minute_curts" placeholder="per exemple '42'">
+                                        <input type="number" step="any" class="form-control"
+                                               name="beats_per_minute_curts" placeholder="per exemple '42'">
                                     </div>
                                 </div>
                                 <div class="control-group">
                                     <label>compassos per minut dels llargs</label>
                                     <div class="controls">
-                                        <input type="number" step="any" class="form-control" name="beats_per_minute_llargs" placeholder="per exemple '42'">
+                                        <input type="number" step="any" class="form-control"
+                                               name="beats_per_minute_llargs" placeholder="per exemple '42'">
                                     </div>
                                 </div>
                                 <div class="control-group">
@@ -177,18 +133,6 @@
                     <!--tabs-->
                     <!--/tabs-->
 
-                    <hr>
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4>Nous Avisos</h4></div>
-                        <div class="panel-body">
-                            <div class="list-group">
-                                <a href="#" class="list-group-item active">Hostejant el virtual mailbox serv..</a>
-                                <a href="#" class="list-group-item">El server dedicat no pot encara de..</a>
-                                <a href="#" class="list-group-item">Nova instal·lació d'Apache Hadoop a..</a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <!--/col-->
 
@@ -200,19 +144,23 @@
 
                             <small>Avaluació dels usuaris</small>
                             <div class="progress">
-                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="72"
+                                     aria-valuemin="0" aria-valuemax="100" style="width: 90%">
                                     <span class="sr-only">90% Complete</span>
                                 </div>
                             </div>
                             <small>Espai al servidor</small>
                             <div class="progress">
-                                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                <div class="progress-bar progress-bar-info progress-bar-striped active"
+                                     role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"
+                                     style="width: 20%">
                                     <span class="sr-only">20% Complete</span>
                                 </div>
                             </div>
                             <small>Fixes pendents</small>
                             <div class="progress">
-                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 12%">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60"
+                                     aria-valuemin="0" aria-valuemax="100" style="width: 12%">
                                     <span class="sr-only">12% Complete (warning)</span>
                                 </div>
                             </div>
@@ -222,7 +170,7 @@
                     <!--/panel-->
 
                     <hr>
-                    
+
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4>Notícies</h4></div>
@@ -231,41 +179,19 @@
                                 <button type="button" class="close" data-dismiss="alert">×</button>
                                 Aquesta notícia expirarà aviat.
                             </div>
-                            <p>Montblanc clou un any de <a href="http://www.capitaldelasardana.cat">Capital de la Sardana</a>, en el qual s’han celebrat mig centenar de concerts i activitats culturals
-                            A la magnífica església gòtica de Santa Maria com a escenari, Montblanc va celebrar el comiat, aquest dissabte passat, haver estat durant un any la Capital de la Sardana, tot just abans que dissabte vinent, 16 de març, lliuri el relleu a Perpinyà com a protagoni...</p>
+                            <p>Montblanc clou un any de <a href="http://www.capitaldelasardana.cat">Capital de la
+                                Sardana</a>, en el qual s’han celebrat mig centenar de concerts i activitats culturals
+                                A la magnífica església gòtica de Santa Maria com a escenari, Montblanc va celebrar el
+                                comiat, aquest dissabte passat, haver estat durant un any la Capital de la Sardana, tot
+                                just abans que dissabte vinent, 16 de març, lliuri el relleu a Perpinyà com a
+                                protagoni...</p>
                             <p><a href="http://www.capitaldelasardana.cat">+llegir més</a>
                         </div>
                     </div>
-                    <div class="table-responsive">
-                        <table class="table table-striped">
-                            <thead>
-                                <tr>
-                                    <th>Baixades</th>
-                                    <th>ROI</th>
-                                    <th>Font</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>17</td>
-                                    <td>72.45%</td>
-                                    <td>Directe</td>
-                                </tr>
-                                <tr>
-                                    <td>14</td>
-                                    <td>156.2%</td>
-                                    <td>Remissió</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    
 
                 </div>
-                <!--/col-span-6-->
 
             </div>
-            <!--/row-->
 
             <hr>
 
@@ -274,8 +200,10 @@
             <div class="row">
                 <div class="col-md-12">
                     <ul class="list-group">
-                        <li class="list-group-item"><a href="https://portalsardanista.cat/" target="_blank"><i class="glyphicon glyphicon-flash"></i> Web de la Confederació Sardanista de Catalunya</a></li>
-                        
+                        <li class="list-group-item"><a href="https://portalsardanista.cat/" target="_blank"><i
+                                class="glyphicon glyphicon-flash"></i> Web de la Confederació Sardanista de
+                            Catalunya</a></li>
+
                     </ul>
                 </div>
             </div>
@@ -285,31 +213,10 @@
 </div>
 <!-- /Main -->
 
-<footer class="text-center">En col·laboració amb la <a href="https://www.upc.edu/ca"><strong>Universitat Politècnica de Catalunya</strong></a> i la  <a href="https://portalsardanista.cat/"><strong>Confederació Sardanista de Catalunya</strong></a></footer>
+<footer class="text-center">En col·laboració amb la <a href="https://www.upc.edu/ca"><strong>Universitat Politècnica de
+    Catalunya</strong></a> i la <a href="https://portalsardanista.cat/"><strong>Confederació Sardanista de
+    Catalunya</strong></a>
+</footer>
 
-<div class="modal" id="addWidgetModal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h4 class="modal-title">Afegir widget</h4>
-            </div>
-            <div class="modal-body">
-                <p>Add a widget stuff here..</p>
-            </div>
-            <div class="modal-footer">
-                <a href="#" data-dismiss="modal" class="btn">Close</a>
-                <a href="#" class="btn btn-primary">Save changes</a>
-            </div>
-        </div>
-        <!-- /.modal-content -->
-    </div>
-    <!-- /.modal-dalog -->
-</div>
-<!-- /.modal -->
-	<!-- script references -->
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/scripts.js"></script>
-	</body>
+</body>
 </html>
